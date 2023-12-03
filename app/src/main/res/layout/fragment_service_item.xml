@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ServiceItemFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Запись"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewNameSer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewDescSer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewCostSer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="01.02.1987"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Записаться"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

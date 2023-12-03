@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/kabinet"
+        android:title="Личный кабинет"
+        android:icon="@drawable/baseline_account_box_24"/>
+    <item android:id="@+id/services"
+        android:title="Услуги"
+        android:icon="@drawable/baseline_hot_tub_24"/>
+</menu>
